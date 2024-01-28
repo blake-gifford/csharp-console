@@ -11,7 +11,6 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        // string jsonFilePath = "./data.json";
         string jsonString = File.ReadAllText(@"./data.json");
 
         List<Company> companies = JsonSerializer.Deserialize<List<Company>>(jsonString);
