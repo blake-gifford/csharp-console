@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text.Json;
-using System.IO;
-// string companies = File.ReadAllText(@"./data.json");
-// var company = JsonSerializer.Deserialize<Company>(companies);
-// Console.WriteLine(companies);
-
+﻿using System.Text.Json;
 
 public class Program
 {
