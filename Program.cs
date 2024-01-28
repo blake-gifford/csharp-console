@@ -16,7 +16,7 @@ public class Program
         List<Company> companies = JsonSerializer.Deserialize<List<Company>>(jsonString);
         string htmlContent = GenerateHtml(companies);
 
-        File.WriteAllText("output.html", htmlContent);
+        File.WriteAllText("companies.html", htmlContent);
         Console.WriteLine("HTML file generated successfully.");
     }
 
