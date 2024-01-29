@@ -1,20 +1,20 @@
 [
     {
-        "name": "Microsoft",
-        "ticker": "MSFT",
-        "price": 392.00,
-        "delta": 2.00
+        "Name": "Microsoft",
+        "Ticker": "MSFT",
+        "Price": 392.00,
+        "Delta": 2.00
     },
     {
-        "name": "Intel",
-        "ticker": "INTC",
-        "price": 68.00,
-        "delta": -12.00
+        "Name": "Intel",
+        "Ticker": "INTC",
+        "Price": 68.00,
+        "Delta": -12.00
     },
     {
-        "name": "Adobe",
-        "ticker": "ADBE",
-        "price": 212.00,
-        "delta": 10.00
+        "Name": "Adobe",
+        "Ticker": "ADBE",
+        "Price": 212.00,
+        "Delta": 10.00
     }
 ]

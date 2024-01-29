@@ -20,7 +20,7 @@ public class Program
 
         foreach (var company in companies)
         {
-            html.Append($"<tr><td>{company.name}</td><td>{company.ticker}</td><td>{company.price}</td><td>{company.delta}</td></tr>");
+            html.Append($"<tr><td>{company.Name}</td><td>{company.Ticker}</td><td>{company.Price}</td><td>{company.Delta}</td></tr>");
         }
 
         html.Append("</table></body></html>");

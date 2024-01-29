@@ -1,7 +1,7 @@
 public class Company
 {
-    public string name { get; set; }
-    public string ticker { get; set; }
-    public double price { get; set; }
-    public double delta { get; set; }
+    public string Name { get; set; }
+    public string Ticker { get; set; }
+    public double Price { get; set; }
+    public double Delta { get; set; }
 }
